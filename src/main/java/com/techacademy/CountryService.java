@@ -14,6 +14,7 @@ public class CountryService {
         this.repository = repository;
     }
 
+
     // 全件を検索して返す
     public List<Country> getCountryList() {
         // リポジトリのfindAllメソッドを呼び出す
